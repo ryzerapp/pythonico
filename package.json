@@ -1,74 +1,55 @@
 {
-  "name": "Woox",
-  "version": "1.0.0",
-  "description": "HTML-template",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "scripts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "Woox"
-  },
-  "keywords": [
-    "html",
-    "template",
-    "creative",
-    "agency"
-  ],
-  "author": "Crumina",
-  "license": "ISC",
-  "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "coffee": "^3.2.4",
-    "coffee-script": "^1.12.6",
-    "del": "^2.2.0",
-    "fixmyjs": "^1.0.3",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-cache": "^0.4.6",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-coffee": "^2.3.2",
-    "gulp-compile-handlebars": "^0.6.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-csscomb": "^3.1.0",
-    "gulp-cssmin": "^0.2.0",
-    "gulp-csso": "^2.0.0",
-    "gulp-declare": "^0.3.0",
-    "gulp-handlebars": "^5.0.2",
-    "gulp-handlebars-html": "0.0.2",
-    "gulp-htmlhint": "^2.2.1",
-    "gulp-htmlmin": "^5.0.1",
-    "gulp-if": "^2.0.2",
-    "gulp-imagemin": "^6.1.0",
-    "gulp-jscpd": "0.0.6",
-    "gulp-jscs": "^3.0.2",
-    "gulp-jsonlint": "^1.2.1",
-    "gulp-minify": "^3.1.0",
-    "gulp-minify-css": "^1.2.4",
-    "gulp-plumber": "^1.2.0",
-    "gulp-replace": "^1.0.0",
-    "gulp-rigger": "^0.5.8",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-sourcemaps-support": "0.0.1",
-    "gulp-tinypng": "^1.0.2",
-    "gulp-uglify": "^3.0.2",
-    "gulp-uglify-es": "^2.0.0",
-    "gulp-uncss": "^1.0.5",
-    "gulp-useref": "^3.1.4",
-    "gulp-watch": "^5.0.1",
-    "gulp-wrap": "^0.15.0",
-    "handlebars": "^4.5.3",
-    "imagemin-pngquant": "^8.0.0",
-    "merge-stream": "^1.0.1",
-    "rimraf": "^2.5.2",
-    "run-sequence": "^2.2.1"
-  },
+  "name": "profileapp",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "del": "^2.2.2",
-    "gulp-svgmin": "^2.2.0",
-    "gulp-zip": "^5.0.1"
+    "@popperjs/core": "^2.9.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "aos": "^2.3.4",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "rc-progress": "^3.1.4",
+    "bootstrap": "^5.1.0",
+    "react": "^17.0.2",
+    "react-countup": "^6.0.0",
+    "react-dom": "^17.0.2",
+    "react-fancy-countdown": "^1.0.3",
+    "react-helmet": "^6.1.0",
+    "react-responsive-carousel": "^3.2.21",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-typed": "^1.2.0",
+    "sass": "^1.42.0",
+    "swiper": "^6.7.0",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
