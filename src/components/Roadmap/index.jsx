@@ -4,7 +4,11 @@ const Roadmap = ({data , ClassSpanTitle}) => {
 
     return (
 
-      <section className="roadmap section-padding-0-0" id="roadmap">
+      <section
+        style={{
+          background: "radial-gradient(black, transparent)"
+        }}
+        className="roadmap section-padding-0-0 pt-5" id="roadmap">
         <SectionHeading
           title="ICO Roadmap"
           text="Our ICO Roadmap"

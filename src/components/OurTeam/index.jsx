@@ -4,7 +4,11 @@ const OurTeam = ({data , ClassSpanTitle}) => {
 
     return (
 
-      <section className="our_team_area section-padding-100-0 clearfix" id="team">
+      <section
+        style={{
+          background: "radial-gradient(black, transparent)"
+        }}
+        className="our_team_area section-padding-100-0 clearfix" id="team">
         <div className="container">
           <div className="row">
             <div className="col-12">

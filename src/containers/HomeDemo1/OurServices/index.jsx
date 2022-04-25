@@ -7,7 +7,11 @@ const OurServices = ({data}) => {
 
     return (
 
-      <section className="our_services_area section-padding-0-0 clearfix">
+      <section
+        style={{
+          background: "radial-gradient(black, transparent)"
+        }}
+        className="our_services_area section-padding-0-0 clearfix pt-5">
         <div className="container">
           <SectionHeading
             title="Why choose us"

@@ -6,8 +6,10 @@ import HomePageDemo1 from "../../assets/img/demos/demo-1.png"
 import HomePageDemo2 from "../../assets/img/demos/demo-2.png"
 import HomePageDemo3 from "../../assets/img/demos/demo-3.png"
 
-import HomeDemo1Platform1 from "../../assets/img/core-img/platform1.png"
-import HomeDemo1About1 from "../../assets/img/core-img/about-1.png"
+import HomeDemo1Platform1 from "../../assets/3d/14.png"
+import HomeDemo1About1 from "../../assets/3d/7.png"
+import HomeDemo1About2 from "../../assets/3d/24.png"
+
 import HomeDemo1JoinBottom from "../../assets/img/svg/join-bottom.svg"
 
 import HomeDemo1Computer from "../../assets/img/core-img/computer.png"
@@ -35,11 +37,11 @@ import HomeDemo1FeaturesS4 from "../../assets/img/features/s4.svg"
 import HomeDemo1Platform from "../../assets/img/core-img/platform.png"
 import HomeDemo1Rings from "../../assets/img/core-img/rings.png"
 
-import HomeDemo1Wwhitepaper from "../../assets/img/core-img/whitepaper.png"
+import HomeDemo1Wwhitepaper from "../../assets/3d/1.png"
 import HomeDemo1SectionIcon11 from "../../assets/img/svg/section-icon-11.svg"
 
-import HomeDemo1Distribution from "../../assets/img/core-img/distribution.png"
-import HomeDemo1Graph11 from "../../assets/img/core-img/graph-11.png"
+import HomeDemo1Distribution from "../../assets/distribution.png"
+import HomeDemo1Graph11 from "../../assets/graph.png"
 
 import HomeDemo1FeaturesF1 from "../../assets/img/features/f1.svg"
 import HomeDemo1FeaturesF2 from "../../assets/img/features/f2.svg"
@@ -203,6 +205,7 @@ export {
 	////////////////////////////////////////////////// HomeDemo1
 	HomeDemo1Platform1,
 	HomeDemo1About1,
+	HomeDemo1About2,
 	HomeDemo1JoinBottom,
 	HomeDemo1Computer,
 

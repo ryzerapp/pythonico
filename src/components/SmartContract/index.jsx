@@ -4,7 +4,11 @@ const SmartContract = ({data}) => {
 
     return (
 
-      <section className="smart-contract section-padding-0-70 mt-5 clearfix">
+      <section
+        style={{
+          background: "radial-gradient(black, transparent)"
+        }}
+        className="smart-contract section-padding-0-70 pt-5 clearfix">
         <div className="container">
           <div className="row ">
             <div className="col-12 col-lg-6 offset-lg-0">

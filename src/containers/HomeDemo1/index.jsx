@@ -12,7 +12,6 @@ import {
 
 import OurJoinUsFirst from '../../data/data-containers/HomeDemo1/data-OurJoinUsFirst.json';
 import OurJoinUsSecond from '../../data/data-containers/HomeDemo1/data-OurJoinUsSecond.json';
-import PlatformIco from '../../data/data-containers/HomeDemo1/data-PlatformIco.json';
 import SecPricesInfo from '../../data/data-containers/HomeDemo1/data-SecPricesInfo.json';
 import TokenDistributionInfo from '../../data/data-containers/HomeDemo1/data-TokenDistributionInfo.json';
 import RoadmapInfo from '../../data/data-containers/HomeDemo1/data-RoadmapInfo.json';
@@ -22,32 +21,28 @@ import {
   HomeDemo1Platform1,
   HomeDemo1Wwhitepaper,
   HomeDemo1SectionIcon11,
-  HomeDemo1About1
+  HomeDemo1About1,
+  HomeDemo1About2
 } from '../../utils/allImgs'
 
 import './style/HomeDemo1.scss'
 
 import Header from "../../layouts/Header"
-import FooterPages from '../../layouts/Footer/FooterPages'
+import FooterPages from '../../layouts/Footer/FooterPages/indexnew'
 
-import SecHeroSection from '../../components/HeroSection'
-import SecAbout from '../../components/SecAbout'
-import AboutOther from '../../components/AboutOther'
-import Features2 from '../../components/Features2'
-import SpreadMap from '../../components/SpreadMap'
+import IntoductionPart from '../../components/HeroSection'
+import Cryptonium from '../../components/SecAbout'
+import Horizon from '../../components/AboutOther'
+import FlowOfPlatform from './JoinUs'
+import OurMainFeature from "./OurServices"
+import TokenSell from '../../components/Features2'
+import Whitepaper from '../../components/SpreadMap'
 import SmartContract from '../../components/SmartContract'
-import SecPrices from '../../components/SecPrices'
+import ICORoundePrice from '../../components/SecPrices'
 import TokenDistribution from '../../components/TokenDistribution'
 import Roadmap from '../../components/Roadmap'
 import Faq from '../../components/Faq'
 import OurTeam from '../../components/OurTeam'
-import Subscribe from '../../components/Subscribe'
-import OurBlog from '../../components/OurBlog'
-
-import JoinUs from './JoinUs'
-import SecTrust from './SecTrust'
-import OurServices from "./OurServices"
-import OurPlatform from "./OurPlatform"
 
 const HomeDemo1Container = () => {
 
@@ -58,9 +53,9 @@ const HomeDemo1Container = () => {
   return (
     <div>
       <Header Title="Python Coin ICO" />
-      <SecHeroSection
-        specialHead="Creative landing page template"
-        title="Decenteralized Crypto Trading Platform"
+      <IntoductionPart
+        specialHead="We Introduce Digital Art 2.0"
+        title="India's First Ecosystem for Content Creator"
         link1="Whitepaper"
         link2="Buy Token"
         img={HomeDemo1Platform1}
@@ -69,37 +64,36 @@ const HomeDemo1Container = () => {
         HomeDemo3={false}
       />
       <div className="clearfix" />
-      <SecAbout
-        imgDwon={false}
-        title="Decentralized Trading Platform"
-        text="Connect blockchain to the real world and start crypto tading."
+      <Cryptonium
+        title="The NFT marketplace"
+        text="India's First Multi Chain NFT Marketplace"
         img={HomeDemo1About1}
       />
-      <JoinUs
-        OurJoinUsFirst={OurJoinUsFirst}
-        OurJoinUsSecond={OurJoinUsSecond}
+      <Horizon
+        title="The Social Media App"
+        subtitle="Earn passive income with Reels."
+        img={HomeDemo1About2}
       />
-      <AboutOther />
-      <SecTrust data={SecTrustContent} />
-      <OurServices data={Services} />
-      <SmartContract data={SmartContractinfo} />
-      <OurPlatform data={PlatformIco} />
-      <SecPrices data={SecPricesInfo} />
-      <div className="clearfix" />
-      <SpreadMap
+      <Whitepaper
         Wwhitepaper={HomeDemo1Wwhitepaper}
         SectionIcon11={HomeDemo1SectionIcon11}
       />
+      {/* <ICORoundePrice data={SecPricesInfo} /> */}
+      <div className="clearfix" />
       <TokenDistribution data={TokenDistributionInfo} />
-      <Roadmap data={RoadmapInfo} />
-      <Features2
+      <TokenSell
         icoCounterClass="ico-counter mb-30"
         Features2InfoTop={Features2InfoTop}
         Features2InfoDown={Features2InfoDown}
       />
+      <Roadmap data={RoadmapInfo} />
+
+      <OurMainFeature data={Services} />
+      <SmartContract data={SmartContractinfo} />
       <Faq data={FaqInfo} />
       <OurTeam data={OurTeamInfo} />
-      <Subscribe />
+      {/* <SecTrust data={SecTrustContent} /> */}
+      {/* <Subscribe /> */}
 
       <FooterPages />
     </div>

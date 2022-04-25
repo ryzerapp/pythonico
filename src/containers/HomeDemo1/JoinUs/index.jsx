@@ -9,7 +9,9 @@ const OurJoinUs = ({OurJoinUsFirst , OurJoinUsSecond}) => {
 
   return (
 
-    <section className="join-us section-padding-0-100 clearfix" id="services">
+    <section
+
+      className="join-us section-padding-0-100 clearfix pt-5" id="services">
       <div className="container">
         <SectionHeading
           title="Our Services"

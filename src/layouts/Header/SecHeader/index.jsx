@@ -6,29 +6,33 @@ const SecHeader = ({Logo , dropdownItem , MenuInfo}) => {
       <nav className="navbar navbar-expand-lg navbar-white fixed-top" id="banner">
         <div className="container">
           {/* Brand */}
-          <a className="navbar-brand" href="#"><span><img src={Logo} alt="logo" /></span></a>
-          {/* Toggler/collapsibe Button */}
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <a className="navbar-brand"
+          style={{
+            width: '5%',
+            height: "5%"
+          }}
+          href="/"><span><img src={Logo} alt="logo" /></span></a>
+        <button className="navbar-toggler" type="button"
+          data-toggle="collapse" data-target="#collapsibleNavbar">
             <span className="navbar-toggler-icon" />
-          </button>
-          {/* Navbar links */}
-
-          <div className="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  {dropdownItem && dropdownItem.map((item , key) => (
-                      <NavLink key={key} className="dropdown-item" to={item.path}>{item.nameLink}</NavLink>
-                  ))}
-                </div>
-              </li>
+        </button>
+        <div className="collapse navbar-collapse ml-auto" id="collapsibleNavbar">
+          <ul className="navbar-nav ml-auto">
               {MenuInfo && MenuInfo.map((item , key) => (
                 <li className="nav-item" key={key}>
                   <a className="nav-link" href={item.path}>{item.nameLink}</a>
                 </li>
               ))}
-              <li className="lh-55px"><a href="#" className="btn login-btn ml-50">Contact Us</a></li>
+            <li className="lh-55px">
+              <a
+                target={'_blank'}
+                href={process.env.REACT_APP_SWAP}
+                class="btn pushablenew ml-3 mt-2">
+                <span class="frontnew">
+                  Buy Token
+                </span>
+              </a>
+            </li>
             </ul>
           </div>
         </div>

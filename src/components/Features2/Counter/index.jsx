@@ -30,7 +30,11 @@ const Counter = ({icoCounterClass}) => {
                     <span className="pull-right">Token Hardcap</span>
                   </div>
                   <div className="text-center">
-                    <a className="btn dream-btn mt-30 fadeInUp" data-wow-delay="0.6s" href="#">Buy More tokens</a>
+                  <a
+                    target={"_blank"}
+                    href={process.env.REACT_APP_SWAP}
+                    className="btn dream-btn mt-30 fadeInUp" data-wow-delay="0.6s"
+                  >Buy More tokens</a>
                   </div>
                 </div>
               </div>

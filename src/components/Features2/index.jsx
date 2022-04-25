@@ -12,7 +12,11 @@ const Features2 = ({
 
     return (
 
-      <div className="features2 section-padding-100-70">
+      <div
+        style={{
+          background: "radial-gradient(black, transparent)"
+        }}
+        className="features2 section-padding-100-70">
         <div className="container">
           <div className="row align-items-center">
             <Counter

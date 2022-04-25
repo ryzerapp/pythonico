@@ -15,7 +15,7 @@ const SecHeroSection = ({
   return (
     <>
       {HomeDemo1 && (
-        <section className="hero-section moving section-padding" id="home">
+        <section className="hero-section moving" id="home">
           <div className="moving-bg" />
           <div className="hero-section-content">
             <div className="container ">
@@ -26,16 +26,38 @@ const SecHeroSection = ({
                       <h3 className="special-head dark">{specialHead}</h3>
                     </div>
                     <h1 className="" data-aos-delay="200">{title}</h1>
-                    <p className="w-text " data-aos-delay="300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolorem blanditiis ad perferendis, labore delectus dolor sit amet, adipisicing elit. Eveniet.</p>
+                    <p className="w-text " data-aos-delay="300">
+                      We transform the digital world into Blockchain.
+                      <br></br>
+                      See Our Whitepaper for More Information About
+                      <br></br>
+                      <span className="gradient-text">Digital Art 2.0</span>
+                    </p>
                     <div className="dream-btn-group " data-aos-delay="400">
-                      <a href="#" className="btn more-btn mr-3">{link1}</a>
-                      <a href="#" className="btn more-btn">{link2}</a>
+                      <a
+                        target={"_blank"}
+                        href={process.env.REACT_APP_WHITEPAPER}
+                        class="btn pushable mr-3">
+                        <span class="front">
+                          Whitepaper
+                        </span>
+                      </a>
+                      <a
+                        target={"_blank"}
+                        href={process.env.REACT_APP_SWAP}
+                        class="btn pushable">
+                        <span class="front">
+                          Buy Token
+                        </span>
+                      </a>
                     </div>
+
                   </div>
                 </div>
                 <div className="col-lg-6">
-                  <div className="dotted mt-30 " data-aos-delay="500">
-                    <img src={img} alt="" />
+                  <div className="dotted" data-aos-delay="500">
+                    <img
+                      src={img} alt="" />
                   </div>
                 </div>
               </div>

@@ -8,7 +8,11 @@ const Faq = ({data , ClassSpanTitle}) => {
 
     return (
 
-      <div className="faq-timeline-area section-padding-0-85 mt-5" id="faq">
+      <div
+        style={{
+          background: "radial-gradient(black, transparent)"
+        }}
+        className="faq-timeline-area section-padding-0-85 pt-5" id="faq">
         <div className="container">
           <SectionHeading
             title="Token FAQ"

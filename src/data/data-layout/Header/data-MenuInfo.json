@@ -1,11 +1,11 @@
 [
 	{
-		"path":"#about",
-		"nameLink":"About Us"
-	},
-	{
 		"path":"#services",
 		"nameLink":"Services"
+	},
+	{
+		"path": "https://nftmarketplacenew.s3.ap-south-1.amazonaws.com/WhitePaper.pdf",
+		"nameLink": "Whitepaper"
 	},
 	{
 		"path":"#faq",
