@@ -115,6 +115,11 @@ body {
   .pushable:active .front {
     transform: translateY(-2px);
   }
+  @media screen and (max-width: 600px) {
+  .pushable {
+    margin-top:15px;
+  }
+}
 .darker-blue{
     background: linear-gradient(180deg,#240044 0,#0f0240 25%,#400959 40%,#0f0240 65%,#0f0240);
 }
