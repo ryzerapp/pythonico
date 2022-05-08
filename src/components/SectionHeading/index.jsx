@@ -22,7 +22,7 @@ const SectionHeading = ({
 	            <span className={ClassSpanTitle}>{title}</span>
 	        </div>
             <h2 data-aos="fade-up">{text}</h2>
-            <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+            {/* <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p> */}
 	      </div>
 
       	)}

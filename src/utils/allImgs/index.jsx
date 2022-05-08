@@ -52,10 +52,21 @@ import HomeDemo1FeaturesF6 from "../../assets/img/features/f6.svg"
 
 import HomeDemo1Faq from "../../assets/img/svg/faq.svg"
 
-import HomeDemo1TeamImg1 from "../../assets/img/team-img/1.png"
-import HomeDemo1TeamImg2 from "../../assets/img/team-img/2.png"
+import HomeDemo1TeamImg1 from "../../assets/img/team-img/arpit.png"
+import HomeDemo1TeamImg2 from "../../assets/img/team-img/mehul.jpeg"
 import HomeDemo1TeamImg3 from "../../assets/img/team-img/3.png"
-import HomeDemo1TeamImg4 from "../../assets/img/team-img/4.png"
+import HomeDemo1TeamImg4 from "../../assets/img/team-img/dev.jpeg"
+import HomeDemo1TeamImg5 from "../../assets/img/team-img/sid.jpeg"
+import HomeDemo1TeamImg6 from "../../assets/img/team-img/nihar.jpeg"
+import HomeDemo1TeamImg7 from "../../assets/img/team-img/vijay.jpg"
+import HomeDemo1TeamImg8 from "../../assets/img/team-img/1.png"
+import HomeDemo1TeamImg9 from "../../assets/img/team-img/keval.jpeg"
+import HomeDemo1TeamImg10 from "../../assets/img/team-img/ravi.jpeg"
+import HomeDemo1TeamImg11 from "../../assets/img/team-img/yash.jpeg"
+import HomeDemo1TeamImg12 from "../../assets/img/team-img/1.png"
+import HomeDemo1TeamImg13 from "../../assets/img/team-img/masiha.jpg"
+import HomeDemo1TeamImg14 from "../../assets/img/team-img/jay.jpeg"
+import HomeDemo1TeamImg15 from "../../assets/img/team-img/ved.jpeg"
 
 import HomeDemo1BlogImg1 from "../../assets/img/blog-img/1.jpg"
 import HomeDemo1BlogImg2 from "../../assets/img/blog-img/2.jpg"
@@ -252,6 +263,17 @@ export {
 	HomeDemo1TeamImg2,
 	HomeDemo1TeamImg3,
 	HomeDemo1TeamImg4,
+	HomeDemo1TeamImg5,
+	HomeDemo1TeamImg6,
+	HomeDemo1TeamImg7,
+	HomeDemo1TeamImg8,
+	HomeDemo1TeamImg9,
+	HomeDemo1TeamImg10,
+	HomeDemo1TeamImg11,
+	HomeDemo1TeamImg12,
+	HomeDemo1TeamImg13,
+	HomeDemo1TeamImg14,
+	HomeDemo1TeamImg15,
 
 	HomeDemo1BlogImg1,
 	HomeDemo1BlogImg2,
