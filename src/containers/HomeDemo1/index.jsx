@@ -88,8 +88,8 @@ const HomeDemo1Container = () => {
       />
       <Roadmap data={RoadmapInfo} />
 
-      <OurMainFeature data={Services} />
-      <SmartContract data={SmartContractinfo} />
+      {/* <OurMainFeature data={Services} /> */}
+      {/* <SmartContract data={SmartContractinfo} /> */}
       <Faq data={FaqInfo} />
       <OurTeam data={OurTeamInfo} />
       {/* <SecTrust data={SecTrustContent} /> */}

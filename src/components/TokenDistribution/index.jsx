@@ -18,13 +18,13 @@ const TokenDistribution = ({data , ClassSpanTitle}) => {
           />
 
           <div className="row align-items-center">
-            <div className="col-lg-6 col-sm-12">
+            <div className="col-lg-12 col-sm-12">
               <div>
-                <h2 className="text-center mb-30">Funds Allocation</h2>
+                {/* <h2 className="text-center mb-30">Funds Allocation</h2> */}
                 <img src={HomeDemo1Distribution} className="center-block" alt="" />
               </div>
             </div>
-            <div className="col-lg-6 col-sm-12 mt-s">
+            {/* <div className="col-lg-6 col-sm-12 mt-s">
               <h2 className="text-center mb-30">Token Distribution</h2>
               <div className="row">
                 <div className="col-sm-4">
@@ -43,7 +43,7 @@ const TokenDistribution = ({data , ClassSpanTitle}) => {
                   ))}
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

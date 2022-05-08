@@ -660,6 +660,10 @@ ol {
   margin-bottom: 80px;
 }
 
+.section-headingnew {
+    position: relative;
+    z-index: 1;
+}
 .section-heading h2 {
   font-size: 30px;
   text-transform: capitalize;

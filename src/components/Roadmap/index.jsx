@@ -10,8 +10,8 @@ const Roadmap = ({data , ClassSpanTitle}) => {
         }}
         className="roadmap section-padding-0-0 pt-5" id="roadmap">
         <SectionHeading
-          title="ICO Roadmap"
-          text="Our ICO Roadmap"
+          title="Roadmap"
+          text="Our Project Development Roadmap"
           ClassSpanTitle={ClassSpanTitle}
         />
         <div className="container">
@@ -27,7 +27,13 @@ const Roadmap = ({data , ClassSpanTitle}) => {
                     </div>
                     <div className="timeline-content">
                       <h5 className="title">{item.title}</h5>
-                      <p className="description text-light-gray"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.</p>
+                      <p className="description text-light-gray">{item?.description}</p>
+                      {item?.link_value ?
+                        <a
+                          target={"_blank"}
+                          href={item?.link_value} >{item?.link_name} </a>
+                        : null}
+
                     </div>
                   </div>
                 ))}

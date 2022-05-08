@@ -40,7 +40,7 @@ import HomeDemo1Rings from "../../assets/img/core-img/rings.png"
 import HomeDemo1Wwhitepaper from "../../assets/3d/1.png"
 import HomeDemo1SectionIcon11 from "../../assets/img/svg/section-icon-11.svg"
 
-import HomeDemo1Distribution from "../../assets/distribution.png"
+import HomeDemo1Distribution from "../../assets/fundallocation.png"
 import HomeDemo1Graph11 from "../../assets/graph.png"
 
 import HomeDemo1FeaturesF1 from "../../assets/img/features/f1.svg"
