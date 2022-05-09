@@ -4,19 +4,19 @@
 		"nameLink":"Services"
 	},
 	{
-		"path": "https://nftmarketplacenew.s3.ap-south-1.amazonaws.com/WhitePaper.pdf",
+		"path": "#whitepaper",
 		"nameLink": "Whitepaper"
 	},
 	{
-		"path":"#faq",
-		"nameLink":"FAQ"
+		"path": "#token_distribution",
+		"nameLink": "Token Distribution"
 	},
 	{
 		"path":"#roadmap",
 		"nameLink":"Roadmap"
 	},
 	{
-		"path":"#contact",
-		"nameLink":"Contact"
+		"path": "#team",
+		"nameLink": "Team"
 	}
 ]

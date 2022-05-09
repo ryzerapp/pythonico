@@ -2,17 +2,10 @@ import { useEffect } from "react";
 import { addRemoveClassBody } from '../../utils'
 
 import {
-  SecTrustContent,
   Services,
-  SmartContractinfo,
-  Features2InfoTop,
-  Features2InfoDown,
   OurTeamInfo
 } from '../../data/data-containers/HomeDemo1/data-HomeDemo1.js';
 
-import OurJoinUsFirst from '../../data/data-containers/HomeDemo1/data-OurJoinUsFirst.json';
-import OurJoinUsSecond from '../../data/data-containers/HomeDemo1/data-OurJoinUsSecond.json';
-import SecPricesInfo from '../../data/data-containers/HomeDemo1/data-SecPricesInfo.json';
 import TokenDistributionInfo from '../../data/data-containers/HomeDemo1/data-TokenDistributionInfo.json';
 import RoadmapInfo from '../../data/data-containers/HomeDemo1/data-RoadmapInfo.json';
 import FaqInfo from '../../data/data-containers/HomeDemo1/data-FaqInfo.json';
@@ -22,6 +15,8 @@ import {
   HomeDemo1Wwhitepaper,
   HomeDemo1SectionIcon11,
   HomeDemo1About1,
+  HomeDemo1About3,
+  HomeDemo1About4,
   HomeDemo1About2
 } from '../../utils/allImgs'
 
@@ -32,8 +27,9 @@ import FooterPages from '../../layouts/Footer/FooterPages/indexnew'
 
 import IntoductionPart from '../../components/HeroSection'
 import Cryptonium from '../../components/SecAbout'
+import Game from '../../components/SecAbout/game'
 import Horizon from '../../components/AboutOther'
-import FlowOfPlatform from './JoinUs'
+import Metaverse from '../../components/AboutOther/metaverse'
 import OurMainFeature from "./OurServices"
 import TokenSell from '../../components/Features2'
 import Whitepaper from '../../components/SpreadMap'
@@ -74,6 +70,16 @@ const HomeDemo1Container = () => {
         subtitle="Earn passive income with Reels."
         img={HomeDemo1About2}
       />
+      <Game
+        title="The Avatar Generation Game"
+        text="Create Your First NFT in Just One Click"
+        img={HomeDemo1About3}
+      />
+      <Metaverse
+        title="Metaverse"
+        subtitle="Create your own virtual world."
+        img={HomeDemo1About4}
+      />
       <Whitepaper
         Wwhitepaper={HomeDemo1Wwhitepaper}
         SectionIcon11={HomeDemo1SectionIcon11}
@@ -81,16 +87,16 @@ const HomeDemo1Container = () => {
       {/* <ICORoundePrice data={SecPricesInfo} /> */}
       <div className="clearfix" />
       <TokenDistribution data={TokenDistributionInfo} />
-      <TokenSell
+      <OurMainFeature data={Services} />
+      {/* <TokenSell
         icoCounterClass="ico-counter mb-30"
         Features2InfoTop={Features2InfoTop}
         Features2InfoDown={Features2InfoDown}
-      />
+      /> */}
       <Roadmap data={RoadmapInfo} />
 
-      {/* <OurMainFeature data={Services} /> */}
       {/* <SmartContract data={SmartContractinfo} /> */}
-      <Faq data={FaqInfo} />
+      {/* <Faq data={FaqInfo} /> */}
       <OurTeam data={OurTeamInfo} />
       {/* <SecTrust data={SecTrustContent} /> */}
       {/* <Subscribe /> */}

@@ -14,8 +14,8 @@ const OurServices = ({data}) => {
         className="our_services_area section-padding-0-0 clearfix pt-5">
         <div className="container">
           <SectionHeading
-            title="Why choose us"
-            text="Our Main Features"
+            title="Below is Our"
+            text="Tokenomics"
           />
 
           <div className="row">
@@ -24,6 +24,7 @@ const OurServices = ({data}) => {
                 key={key}
                 img={item.img}
                 title={item.title}
+                description={item.description}
               />
             ))}
           </div>

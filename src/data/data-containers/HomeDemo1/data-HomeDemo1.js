@@ -81,35 +81,49 @@ export const SecTrustContent = [
 export const Services = [
     {
         img: HomeDemo1Feature1,
-        title: "Instant settlement"
-    },
-    {
-        img: HomeDemo1Feature2,
-        title: "Flexibility"
-    },
-    {
-        img: HomeDemo1Feature3,
-        title: "Blockchain technology"
+        title: "Public Distribution",
+        description: "Initial We distribute 40% of tokens to the Public."
     },
     {
         img: HomeDemo1Feature4,
-        title: "Experienced team"
+        title: "Eco System Development",
+        description: "In the future, we are planning to create one combined place for content creators so we use a 15% token supply to build an eco system."
+
     },
     {
-        img: HomeDemo1Feature5,
-        title: "Connect free"
+        img: HomeDemo1Feature2,
+        title: "Community",
+        description: "We use our token to increase and support the content creator community."
+
     },
     {
-        img: HomeDemo1Feature6,
-        title: "AI matching"
-    },
-    {
-        img: HomeDemo1Feature7,
-        title: "Low cost"
+        img: HomeDemo1Feature3,
+        title: "Marketing",
+        description: "Python is the Native token for Cryptonium and Horizon so we will use token 10% token to market this product."
+
     },
     {
         img: HomeDemo1Feature8,
-        title: "Digital personas"
+        title: "Blockchain Development",
+        description: "In the future, we plan to launch our own blockchain where we use the token supply of eco-system development."
+
+    },
+    {
+        img: HomeDemo1Feature7,
+        title: "Presale",
+        description: "Our aim is to use a 10% token supply in Presale Before ICO Event."
+
+    },
+    {
+        img: HomeDemo1Feature6,
+        title: "Liquidity Pool",
+        description: "We will lock liquidity into quick-swap where we lock 15% token supply."
+
+    },
+    {
+        img: HomeDemo1Feature5,
+        title: "Referral",
+        description: "In the Avatar generation game, we run referral and affiliate programs so we will use a 5% token for the referral program."
     },
 ]
 

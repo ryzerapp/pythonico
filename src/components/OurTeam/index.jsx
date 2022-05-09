@@ -14,8 +14,8 @@ const OurTeam = ({data , ClassSpanTitle}) => {
           <div className="row">
             <div className="col-12">
               <SectionHeading
-                title="Our Team"
-                text="Awesome Team"
+                  title="Our Awesome"
+                  text="Team"
                 ClassSpanTitle={ClassSpanTitle}
               />
 

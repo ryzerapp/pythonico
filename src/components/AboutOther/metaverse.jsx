@@ -1,4 +1,4 @@
-const AboutOther = ({ title, subtitle, img }) => {
+const Metaverse = ({ title, subtitle, img }) => {
 
   return (
 
@@ -11,22 +11,18 @@ const AboutOther = ({ title, subtitle, img }) => {
                 <span className="gradient-text blue">{title}</span>
               </div>
               <h4 className="fadeInUp" data-aos="fade-up" data-aos-delay="200">{subtitle}</h4>
-              <p className="fadeInUp" data-aos="fade-up" data-aos-delay="200">Horizon Is a Social Media Application
-                Where User can create NFT from Photo and Reels.
-                Using Horizon Users earn passive income in crypto using their reels.
+              <p className="fadeInUp" data-aos="fade-up" data-aos-delay="200">
+                Where users can create a new avatar and create their virtual world. Users also collaborate with other users and create a new virtual world.
               </p>
-              <p className="fadeInUp" data-aos="fade-up" data-aos-delay="300">We Introduce Locarnoa for unique location tracking.
-                Where user can see other user’s location and their story
-                The user adds their future visits on-location, set reminders, adds illustration location for a max of four hours (only for fun), and many more things.</p>
               <a
                 data-aos="fade-up" data-aos-delay="350"
                 target={"_blank"}
-                href={"https://horizon.whiteorigin.in/"}
+                href={"https://metaverse.cryptonium.in/"}
                 class="btn pushable mt-3">
                 <span class="front">
                   Read More
                 </span>
-              </a> 
+              </a>
             </div>
           </div>
           <div className="col-12 col-lg-6 offset-lg-0 col-md-12 mt-30 no-padding-left">
@@ -40,4 +36,4 @@ const AboutOther = ({ title, subtitle, img }) => {
   );
 }
 
-export default AboutOther;
+export default Metaverse;

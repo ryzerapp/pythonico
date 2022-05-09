@@ -9,6 +9,8 @@ import HomePageDemo3 from "../../assets/img/demos/demo-3.png"
 import HomeDemo1Platform1 from "../../assets/3d/14.png"
 import HomeDemo1About1 from "../../assets/3d/7.png"
 import HomeDemo1About2 from "../../assets/3d/24.png"
+import HomeDemo1About3 from "../../assets/3d/11.png"
+import HomeDemo1About4 from "../../assets/3d/29.png"
 
 import HomeDemo1JoinBottom from "../../assets/img/svg/join-bottom.svg"
 
@@ -213,6 +215,8 @@ export {
 	HomePageDemo1,
 	HomePageDemo2,
 	HomePageDemo3,
+	HomeDemo1About3,
+	HomeDemo1About4,
 	////////////////////////////////////////////////// HomeDemo1
 	HomeDemo1Platform1,
 	HomeDemo1About1,

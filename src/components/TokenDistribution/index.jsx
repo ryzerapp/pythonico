@@ -9,11 +9,11 @@ const TokenDistribution = ({data , ClassSpanTitle}) => {
 
     return (
 
-      <section className="token-distribution section-padding-100-85">
+      <section className="token-distribution section-padding-100-85" id="token_distribution">
         <div className="container">
           <SectionHeading
-            title="ICO Distribution"
-            text="Our ICO Distribution"
+            title="Token Distribution"
+            text="Our Token Distribution"
             ClassSpanTitle={ClassSpanTitle}
           />
 

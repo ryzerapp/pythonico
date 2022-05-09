@@ -2,7 +2,7 @@ const SecAbout = ({imgDwon=false , title , text , img}) => {
 
   return (
     <>
-          <section className="about-us-area section-padding-100 clearfix">
+      <section className="about-us-area section-padding-100 clearfix" id="services">
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-12 col-lg-6 offset-lg-0 col-md-12 no-padding-left">

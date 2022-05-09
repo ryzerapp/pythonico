@@ -1,4 +1,4 @@
-const Service = ({ img, title }) => {
+const Service = ({ img, title, description }) => {
 
   return (
     <div className="col-12 col-md-6 col-lg-3">
@@ -7,7 +7,7 @@ const Service = ({ img, title }) => {
           <img src={img} alt="" />
         </div>
         <h6>{title}</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu.</p>
+        <p>{description}</p>
       </div>
     </div>
   );

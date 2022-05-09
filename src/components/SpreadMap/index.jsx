@@ -6,7 +6,7 @@ const SpreadMap = ({Wwhitepaper , SectionIcon11}) => {
       style={{
         background: "radial-gradient(black, transparent)"
       }}
-      className="spread-map download section-padding-0-0">
+      className="spread-map download section-padding-0-0" id="whitepaper">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 col-xs-12">

@@ -17,7 +17,7 @@ const SectionHeading = ({
 	        <p>{text}</p>
 	      </div>
       	):(
-				  <div className="section-headingnew text-center">	      	
+				  <div className="section-heading text-center">	      	
 	        <div className={ClassSpan} data-aos="fade-up">
 	            <span className={ClassSpanTitle}>{title}</span>
 	        </div>
