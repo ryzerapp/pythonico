@@ -5446,10 +5446,10 @@ section .card .image img {
 }
 
 .swiper-button-next {
-  padding-right: 250px;
+  padding-right: 80px;
 }
 .swiper-button-prev {
-  padding-left: 250px;
+  padding-left: 80px;
 }
 
 @media (max-width: 1200px) {
