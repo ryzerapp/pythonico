@@ -5417,3 +5417,50 @@ section .card .image img {
     text-align: center;
   }
 }
+
+.myTeam {
+  position: relative;
+  align-items: center;
+  background-color: red;
+  padding-bottom: 50px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 65%;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+
+.swiper-button-next {
+  padding-right: 250px;
+}
+.swiper-button-prev {
+  padding-left: 250px;
+}
+
+@media (max-width: 1200px) {
+  .swiper-button-next {
+    padding-right: 0px;
+  }
+  .swiper-button-prev {
+    padding-left: 0px;
+  }
+}
