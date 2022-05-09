@@ -192,6 +192,11 @@ export const OurTeamInfo = [
         text: "Co-Founder of Cryptonium and Horizon"
     },
     {
+        img: HomeDemo1TeamImg5,
+        title: "Siddharth Patel",
+        text: "Co-Founder Of Cryptonium"
+    },
+    {
         img: HomeDemo1TeamImg3,
         title: "Hitesh Patel",
         text: "Super Investors"
@@ -200,11 +205,6 @@ export const OurTeamInfo = [
         img: HomeDemo1TeamImg4,
         title: "Divyang Patel",
         text: "Business Analyst at Horizon"
-    },
-    {
-        img: HomeDemo1TeamImg5,
-        title: "Siddharth Patel",
-        text: "Co-Founder Of Cryptonium"
     },
     {
         img: HomeDemo1TeamImg6,
